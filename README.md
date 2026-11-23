@@ -43,6 +43,4 @@ The [rule checks](tests/tests.cpp) run without opening the game:
 bash tools/check.sh
 ```
 
----
 
-Based on the course's rover starter and supplied Graphics1300 library. AI assistance was used for code and rover artwork.
