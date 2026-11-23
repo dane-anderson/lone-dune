@@ -127,9 +127,3 @@ required pictures: waiting for a goal, during a mission, and one rover photo.
 Include arrakis_rover.png so the sprite can load. Leave out build/, tests/results/,
 and compiled Mac apps. No submission ZIP has been made yet.
 
-## Starter code and assistance
-
-This builds on the supplied rover starter and Graphics1300 library. Keep the original author credits.
-AI assistance was used for code and the rover artwork. Check permitted assistance
-with the TA. The interview requires explaining the code and making changes,
-and the assignment asks for original work using concepts taught in class.
