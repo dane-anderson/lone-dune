@@ -1,0 +1,8 @@
+# Lone Dune: The Last Signal
+# Choose each goal by clicking. These comments are only suggestions.
+# Mission 1: scan, collect, and photograph. Suggested goal: (4,1).
+FSRFDLFFFP
+# Mission 2: travel to the next charging station. Suggested goal: (3,4).
+FRFFFRFFC
+# Mission 3: collect another sample and reach the far station. Suggested goal: (9,7).
+BBLFLFSFDRFFLFFPCX

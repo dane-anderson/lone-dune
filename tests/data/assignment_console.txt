@@ -1,0 +1,44 @@
+Command F succeeded. Current coordinates: (1,0) Heading: East Battery: 38
+Command S succeeded. Current coordinates: (1,0) Heading: East Battery: 35
+Scan found 1 new sample site.
+Command R succeeded. Current coordinates: (1,0) Heading: South Battery: 34
+Command F succeeded. Current coordinates: (1,1) Heading: South Battery: 32
+Command D succeeded. Current coordinates: (1,1) Heading: South Battery: 27
+Sample collected. Total samples: 1
+Command L succeeded. Current coordinates: (1,1) Heading: East Battery: 26
+Command F succeeded. Current coordinates: (2,1) Heading: East Battery: 24
+Command F succeeded. Current coordinates: (3,1) Heading: East Battery: 22
+Command F succeeded. Current coordinates: (4,1) Heading: East Battery: 20
+Command P succeeded. Current coordinates: (4,1) Heading: East Battery: 19
+Mission Complete!
+Rover ended at coordinates (4,1) with heading East and battery 19.
+Successful commands: 10  Rejected commands: 0  Samples collected: 1
+Goal reached but rover not reset.
+Command L succeeded. Current coordinates: (4,1) Heading: North Battery: 18
+Command F rejected: blocked by rock
+Command L succeeded. Current coordinates: (4,1) Heading: West Battery: 17
+Command F succeeded. Current coordinates: (3,1) Heading: West Battery: 15
+Command F succeeded. Current coordinates: (2,1) Heading: West Battery: 13
+Command F succeeded. Current coordinates: (1,1) Heading: West Battery: 11
+Command F succeeded. Current coordinates: (0,1) Heading: West Battery: 9
+Command R succeeded. Current coordinates: (0,1) Heading: North Battery: 8
+Command F succeeded. Current coordinates: (0,0) Heading: North Battery: 6
+Command C succeeded. Current coordinates: (0,0) Heading: North Battery: 40
+Mission Complete!
+Rover ended at coordinates (0,0) with heading North and battery 40.
+Successful commands: 9  Rejected commands: 1  Samples collected: 0
+Goal reached and rover reset.
+Command R succeeded. Current coordinates: (0,0) Heading: East Battery: 39
+Command F succeeded. Current coordinates: (1,0) Heading: East Battery: 37
+Command F succeeded. Current coordinates: (2,0) Heading: East Battery: 35
+Command R succeeded. Current coordinates: (2,0) Heading: South Battery: 34
+Command F succeeded. Current coordinates: (2,1) Heading: South Battery: 32
+Command F succeeded. Current coordinates: (2,2) Heading: South Battery: 28
+Command B succeeded. Current coordinates: (2,1) Heading: South Battery: 25
+Command X rejected: unknown command
+Command S succeeded. Current coordinates: (2,1) Heading: South Battery: 22
+Scan found 0 new sample sites.
+Mission Complete!
+Rover ended at coordinates (2,1) with heading South and battery 22.
+Successful commands: 8  Rejected commands: 1  Samples collected: 0
+Goal reached but rover not reset.

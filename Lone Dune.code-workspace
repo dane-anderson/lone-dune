@@ -1,0 +1,65 @@
+{
+  "folders": [
+    {
+      "name": "Lone Dune - The Last Signal",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "build": true,
+      "tests/results": true
+    },
+    "files.associations": {
+      "*.h": "cpp"
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.includePath": [
+      "${workspaceFolder}/rover",
+      "${workspaceFolder}/library"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Lone Dune",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "tools/build.sh"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated"
+        }
+      },
+      {
+        "label": "Check the rover rules",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "tools/check.sh"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": "test",
+        "problemMatcher": [
+          "$gcc"
+        ]
+      }
+    ]
+  }
+}

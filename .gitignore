@@ -1,0 +1,29 @@
+# Build output
+
+/build/
+/tests/results/
+*.app/
+
+# Compiled programs on Windows.
+*.exe
+
+# Temporary compiler files.
+*.o
+*.obj
+
+# Compiled programs on Mac and Linux have no file extension, so list them by name.
+/main
+/demo
+/swarm/swarm
+
+# Mac debug symbols.
+*.dSYM/
+
+# Editor and operating-system files
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
