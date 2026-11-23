@@ -120,7 +120,7 @@ bool Rover::executeCommand(char command) {
     else lastResult += " rejected: " + rejectionReason;
     return successful;
 }
-// Keep the required console wording in one place, so tests can check it too.
+// Format command results for console output and tests.
 string Rover::getCommandStatus(char command, bool successful) {
     if (!successful) {
         return string("Command ") + command + " rejected: " + rejectionReason;

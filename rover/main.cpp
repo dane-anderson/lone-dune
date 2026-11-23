@@ -125,7 +125,7 @@ int runExpedition(Window& window, World& world, vector<Mission>& missions) {
         // ---- Draw the map and the instructions on the right ----
         view.draw(window, mission, currentMission + 1, static_cast<int>(missions.size()), automatic);
 
-        // ---- Save the photograph and the two required example screens ----
+        // ---- Save photos and screenshots of the mission ----
         if (!photoFilename.empty() && !window.saveScreenshot(photoFilename)) {
             cerr << "Cannot save photograph: " << photoFilename << endl;
             return 1;

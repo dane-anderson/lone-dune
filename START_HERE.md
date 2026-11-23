@@ -13,7 +13,7 @@ bash tools/build.sh
 On a Mac, you can also double-click **Run Lone Dune.command in Finder**.
 Clicking it in VS Code opens the script for editing instead.
 For the VS Code shortcut, open **Lone Dune.code-workspace** and press **Command + Shift + B**.
-These all build the current code before running it.
+Each option builds and opens the game.
 
 To check the game rules without opening a window:
 
@@ -72,11 +72,11 @@ Only main and WorldView include graphics headers.
 | rover/ | Game code, map, commands, rover artwork, and saved results. |
 | tests/ | Rule checks in tests.cpp and small input files in data/. |
 | library/ | The supplied graphics library. |
-| tools/ | The current build and test scripts. |
-| reference/ | Supplied instructions and old build scripts for the starter layout. |
+| tools/ | Build and test scripts. |
+| reference/ | Supplied starter instructions and build scripts. |
 | build/ | Compiled files. The scripts recreate these. |
 
-Use the scripts in tools, not the old scripts in reference.
+Build and test Lone Dune with the scripts in tools/.
 
 ## Map and commands
 
@@ -97,7 +97,7 @@ Rejected commands still use a turn but do not use battery or change the map.
 Moves check the map edges and rocks before checking battery. Drilling checks
 for a revealed sample before checking battery. Unknown letters and spaces are rejected.
 
-## Visual additions
+## Display
 
 - The rover uses four pictures in `rover/arrakis_rover.png`, one for each direction.
 - Moves slide between squares over 0.22 seconds. A Space press during a slide waits for it to finish.
@@ -105,7 +105,7 @@ for a revealed sample before checking battery. Unknown letters and spaces are re
 
 These use the supplied Image, Sprite, Rectangle, and Window classes.
 
-## Saved results and submission
+## Saved files
 
 The game saves these in rover:
 
@@ -116,14 +116,8 @@ The game saves these in rover:
 | during_mission.png | During the mission, after a command finishes moving. |
 | photo_<mission>_<command>.png | When a P command succeeds. Both numbers start at 1. |
 
-Starting again clears the report, but old photos remain until replaced.
-For submission, finish all three missions, close the game, and check that the
-CSV has its header plus three result rows. Use screenshots from that run.
-Do not restart the game before saving the final submission copy.
+Starting the game or pressing R starts a new CSV report. Photos stay in the
+folder until a later run saves the same filename.
 
-Submit one ZIP with the source and headers, supplied library, current build scripts,
-world.txt, missions.txt, tests and their input files, completed CSV, and the three
-required pictures: waiting for a goal, during a mission, and one rover photo.
-Include arrakis_rover.png so the sprite can load. Leave out build/, tests/results/,
-and compiled Mac apps. No submission ZIP has been made yet.
-
+To keep a complete report, finish all three missions and close the game before
+copying the CSV. A complete run has the header and three mission rows.

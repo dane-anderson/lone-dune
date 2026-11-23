@@ -52,7 +52,7 @@ private:
     Color muted = Color(151, 157, 149);
     Color border = Color(59, 70, 68);
 
-    // ---- Draw the required parts ----
+    // ---- Draw the map, rover, and mission panel ----
     void drawMap(Window& window);
     void drawPath(Window& window, Mission& mission);
     void drawGoal(Window& window, Mission& mission);

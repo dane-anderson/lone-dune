@@ -28,7 +28,7 @@ Download or clone this repository. With Apple's command-line developer tools ins
 bash tools/build.sh
 ```
 
-You can also double-click **Run Lone Dune.command in Finder**. The script builds the current code before opening the game.
+You can also double-click **Run Lone Dune.command in Finder**. The script builds and opens the game.
 
 ## Take a look around
 
@@ -42,5 +42,4 @@ The [rule checks](tests/tests.cpp) run without opening the game:
 ```sh
 bash tools/check.sh
 ```
-
 
